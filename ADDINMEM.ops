@@ -1,0 +1,11 @@
+01110: ; ADDINMEM
+	ALU_enA RB_enOut RB_selectIndexOut=0  ; A <- Rx
+	ALU_enB ALU_enOut ALU_OP=cte0x01  ; B <- 1
+	ALU_OP=ADD ALU_opW
+	MM_enAddr ALU_enOut  ; addr <- ALU_Out
+	ALU_enB MM_enOut  ; B <- [Rx + 1]
+	MM_enAddr RB_enOut RB_selectIndexOut=0  ; addr <- Rx
+	ALU_enA MM_enOut  ; A <- [Rx]
+	ALU_OP=ADD ALU_opW
+	MM_load ALU_enOut  ; [Rx] <- ALU_Out
+    reset_microOp
