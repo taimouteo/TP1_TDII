@@ -4,6 +4,7 @@ Alumnos: Bautista Goya, Timo Doeswijk, Federico Del Cuadro.
 
 Ejercicio 2:
 Ensamblar y ejecutar - Escribir el siguiente archivo, compilarlo y cargarlo en la memoria de la máquina:
+![image](https://github.com/user-attachments/assets/a830e215-fe1b-4c8c-98d1-dc9a3495dcd5)
 
 a) Previamente a ejecutar el programa, describir con palabras el comportamiento esperado del mismo. No se debe explicar instrucción por instrucción, la idea es entender que hace el programa y qué resultado genera.
 Solución:
@@ -45,6 +46,7 @@ RET |Rx|: Opuesto al funcionamiento de CALL, asigna al PC el valor de la memoria
 
 Ejercicio 3:
 Ampliando la máquina - Agregar las siguientes nuevas instrucciones:
+<img width="804" alt="Untitled1" src="https://github.com/user-attachments/assets/e8fcbe6d-ea5d-43ae-b773-6b61a4398b0b">
 
 Solución:
 La solución del ejercicio fue adjuntada en el archivo ADDINMEM.zip, el cual contiene los siguientes 4 archivos:
@@ -55,6 +57,8 @@ assembler_v2.py: Archivo assembler.py modificado que incluye a la nueva microins
 
 Ejercicio 4:
 Programar - Escribir en ASM las siguientes funciones:
+<img width="936" alt="Untitled" src="https://github.com/user-attachments/assets/1f14b9c5-eba5-42ca-8559-e5a50e4ddbaa">
+
 
 Solución:
 La solución del ejercicio fue adjuntada en el archivo processArray.zip, el cual contiene los siguientes 3 archivos:
